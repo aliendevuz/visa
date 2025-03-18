@@ -5,11 +5,10 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="mxw-1440px mi-a">
-      
-      <Link href={"/page"}>Open Page</Link>
+    <div className="mxw-1800px mi-a">
       <BigCard />
       <Cards />
+      <Link href={"/page"}>Open Page</Link>
     </div>
   );
 }

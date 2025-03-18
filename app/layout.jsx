@@ -4,6 +4,10 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { usePathname } from "next/navigation";
 import "./globals.css";
 import Nav1 from "@/components/Nav1";
+import Footer from "@/components/Footer";
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+config.autoAddCss = false;
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,19 +29,16 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"></link>
-        <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Livvic:wght@100..900&family=Montserrat:wght@100..900&family=Playfair+Display:wght@400..900&family=Plus+Jakarta+Sans:wght@200..800&family=Poppins:wght@100..900&display=swap" rel="stylesheet"></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+        <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"></link>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"></link>
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} ${isHome ? "bc-ba" : ""}`}>
-        <div className="mxw-1440px mi-a">  
+      <body className={`${geistSans.variable} ${geistMono.variable} ${isHome ? "bc-ba" : ""} ${"d-f fd-c w-100 h-100"}`}>
+        <div className="mxw-1800px mi-a mi-60px">
           <Nav1/>
           {children}
         </div>
-        <footer className="h-800px bc-l">
-          <h2>
-            
-          </h2>
-        </footer>
+        <Footer/>
       </body>
     </html>
   );
