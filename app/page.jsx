@@ -1,6 +1,6 @@
 import BigCard from "@/components/BigCard";
 import Cards from "@/components/Cards";
-import Nav1 from "@/components/Nav1";
+import Nav from "@/components/Nav";
 import Link from "next/link";
 
 export default function Home() {

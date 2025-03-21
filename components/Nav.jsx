@@ -2,9 +2,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 
-export default function Nav1() {
+export default function Nav() {
     return (
-        <nav className="d-f w-100p mb-30px bc-w jc-sb ai-c">
+        <nav className="d-f w-100p mb-30px jc-sb ai-c">
             <Link href={"/"} className="logo d-f g-20px ai-c">
                 <img src="logo.svg" alt="logo" />
                 <h2 className="ff-b fw-b fs-2r">RouteX</h2>
