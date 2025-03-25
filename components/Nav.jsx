@@ -20,7 +20,10 @@ export default function Nav() {
                     <li className="d-f g-5px ai-c"><div>CONTACT</div><FontAwesomeIcon icon={faAngleDown} className="fs-06r" /></li>
                 </ul>
             </div>
-            <button className="bc-l b-0 pb-20px pi-30px br-50px fs-09r fw-5 ff-b d-f g-10px ai-c"> <div>Get An Appointment</div><FontAwesomeIcon icon={faArrowRight} size="16px" /></button>
+            <Link href={"#"} className="bc-l b-0 pb-20px pi-30px br-50px fs-09r fw-5 ff-b d-f g-10px ai-c c-w">
+                <p>Get An Appointment</p>
+                <FontAwesomeIcon icon={faArrowRight} size="16px" />
+            </Link>
         </nav>
     );
 }

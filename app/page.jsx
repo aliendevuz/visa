@@ -8,7 +8,8 @@ export default function Home() {
     <div className="mxw-1800px mi-a">
       <BigCard />
       <Cards />
-      <Link href={"/page"}>Open Page</Link>
+      <Link href={"/about_us"}>Open Page</Link>
+      <Link href={"/about_us2"}>Open Page</Link>
     </div>
   );
 }

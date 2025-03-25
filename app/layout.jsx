@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"></link>
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} ${isHome ? "bc-ba" : ""} ${"d-f fd-c w-100 h-100 ai-c"}`}>
-        <div className="mxw-1800px w-100p mi-60px">
+        <div className="mxw-1920px w-100p pi-60px">
           <Nav/>
           {children}
         </div>

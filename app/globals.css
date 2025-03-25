@@ -5,6 +5,7 @@
   --lime: #83CD20;
   --background2: #034833;
   --line-color: #ffffff4d;
+  --font-gray: #727272;
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -58,6 +59,7 @@ a {
 .w-100 {width: 100vw;}
 .w-30p {width: 33%;}
 .w-100p {width: 100%;}
+.w-fc {width: fit-content;}
 
 .w-1px {width: 1px;}
 .w-40px {width: 40px;}
@@ -80,16 +82,26 @@ a {
 .w-1800px {width: 1800px;}
 .w-1920px {width: 1920px;}
 
+.mxw-630px {max-width: 630px;}
 .mxw-1280px {max-width: 1280px;}
 .mxw-1440px {max-width: 1440px;}
+.mxw-1595px {max-width: 1595px;}
 .mxw-1800px {max-width: 1800px;}
+.mxw-1920px {max-width: 1920px;}
 .mnw-1440px {min-width: 1440px;}
 
 .h-100 {height: 100vh;}
 .h-100p {height: 100%;}
 
 .h-1px {height: 1px;}
+.h-20px {height: 20px;}
+.h-40px {height: 40px;}
+.h-60px {height: 60px;}
+.h-80px {height: 80px;}
+.h-100px {height: 100px;}
+.h-120px {height: 120px;}
 .h-400px {height: 400px;}
+.h-462px {height: 462px;}
 .h-670px {height: 670px;}
 .h-800px {height: 800px;}
 
@@ -132,6 +144,12 @@ a {
 .pi-24px {padding-inline: 24px;}
 .pi-30px {padding-inline: 30px;}
 .pi-40px {padding-inline: 40px;}
+.pi-60px {padding-inline: 60px;}
+.pi-150px {padding-inline: 150px;}
+.pi-255px {padding-inline: 255px;}
+.pi-315px {padding-inline: 315px;}
+
+.pt-150px {padding-top: 150px;}
 
 .b-0 {border: 0;}
 .b-0:focus {border: 0;}
@@ -152,8 +170,11 @@ a {
 .fs-14px {font-size: 14px;}
 .fs-15px {font-size: 15px;}
 .fs-16px {font-size: 16px;}
+.fs-18px {font-size: 18px;}
 .fs-30px {font-size: 30px;}
 .fs-32px {font-size: 32px;}
+.fs-50px {font-size: 50px;}
+.fs-80px {font-size: 80px;}
 .fs-06r {font-size: 0.6rem;}
 .fs-08r {font-size: 0.8rem;}
 .fs-09r {font-size: 0.9rem;}
@@ -166,8 +187,13 @@ a {
 .fs-18r {font-size: 1.8rem;}
 .fs-2r {font-size: 2rem;}
 .fs-3r {font-size: 3rem;}
+.fs-312r {font-size: 3.12rem;}
+.fs-32r {font-size: 3.2rem;}
 .fs-4r {font-size: 4rem;}
 .fs-5r {font-size: 5rem;}
+.fs-8r {font-size: 8rem;}
+
+.ta-c {text-align: center;}
 
 .lh-2 {line-height: 2;}
 
@@ -198,6 +224,7 @@ a {
 .o-80 {opacity: 0.8;}
 
 .c-w {color: white;}
+.c-fg {color: var(--font-gray);}
 .c-l {color: var(--lime);}
 
 .bc-t {background-color: transparent;}
@@ -212,6 +239,7 @@ a {
 .bc-black {background-color: black;}
 .bc-ib {background-color: #111214;}
 .bc-r {background-color: red;}
+.bc-lg {background-color: #D9D9D9;}
 
 .p-r {position: relative;}
 .p-a {position: absolute;}
@@ -255,8 +283,20 @@ a {
   background: transparent;
   border: none;
   outline: none;
+  color: white;
 }
 
 .clear-input::placeholder {
   color: white;
+}
+
+.clear-input2 {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--font-gray);
+}
+
+.clear-input2::placeholder {
+  color: var(--font-gray);
 }

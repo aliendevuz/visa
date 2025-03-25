@@ -11,8 +11,8 @@ export default function () {
         alt="world map"
         className="p-a bm-0 l-52p t-tx--50p zi-0"
       />
-      <div className="p-r zi-1 w-100p">
-        <div className="mxw-1280px w-100p mi-315px">
+      <div className="p-r zi-1 w-100p d-f fd-c ai-c">
+        <div className="mxw-1920px w-100p pi-315px">
           <div className="d-f jc-sb mb-30px">
             <div className="d-f ai-c g-20px mb-20px">
               <div className="w-80px ar-1-1 bc-l br-50p o-h d-f jc-c ai-c">
@@ -34,7 +34,7 @@ export default function () {
           </div>
         </div>
         <div className="bc-lc w-100p h-1px"></div>
-        <div className="mxw-1280px w-100p mi-315px mb-84px d-f jc-sb">
+        <div className="mxw-1920px w-100p pi-315px mb-84px d-f jc-sb">
           <div className="d-f fd-c g-40px">
             <Link href={"/"} className="logo d-f g-20px ai-c">
               <img src="logo_colorized.svg" alt="logo" />
@@ -52,44 +52,44 @@ export default function () {
           <div className="d-f fd-c g-40px">
             <h3 className="fw-5 fs-14r">Services</h3>
             <div className="d-f fd-c g-20px">
-              <div className="d-f g-15px">
+              <Link href={"#"} className="d-f g-15px">
                 <FontAwesomeIcon icon={faCheck} className="c-l" />
                 <p className="fs-1r fw-2">Mistakes To Avoid</p>
-              </div>
-              <div className="d-f g-15px">
+              </Link>
+              <Link href={"#"} className="d-f g-15px">
                 <FontAwesomeIcon icon={faCheck} className="c-l" />
                 <p className="fs-1r fw-2">Your Startup</p>
-              </div>
-              <div className="d-f g-15px">
+              </Link>
+              <Link href={"#"} className="d-f g-15px">
                 <FontAwesomeIcon icon={faCheck} className="c-l" />
                 <p className="fs-1r fw-2">Knew About Fonts</p>
-              </div>
-              <div className="d-f g-15px">
+              </Link>
+              <Link href={"#"} className="d-f g-15px">
                 <FontAwesomeIcon icon={faCheck} className="c-l" />
                 <p className="fs-1r fw-2">Knew About Fonts</p>
-              </div>
+              </Link>
             </div>
           </div>
           
           <div className="d-f fd-c g-40px">
             <h3 className="fw-5 fs-14r">Useful Link</h3>
             <div className="d-f fd-c g-20px">
-              <div className="d-f g-15px">
+              <Link href={"#"} className="d-f g-15px">
                 <FontAwesomeIcon icon={faCheck} className="c-l" />
                 <p className="fs-1r fw-2">Latest News</p>
-              </div>
-              <div className="d-f g-15px">
+              </Link>
+              <Link href={"#"} className="d-f g-15px">
                 <FontAwesomeIcon icon={faCheck} className="c-l" />
                 <p className="fs-1r fw-2">Careers</p>
-              </div>
-              <div className="d-f g-15px">
+              </Link>
+              <Link href={"#"} className="d-f g-15px">
                 <FontAwesomeIcon icon={faCheck} className="c-l" />
                 <p className="fs-1r fw-2">General Inquiries</p>
-              </div>
-              <div className="d-f g-15px">
+              </Link>
+              <Link href={"#"} className="d-f g-15px">
                 <FontAwesomeIcon icon={faCheck} className="c-l" />
                 <p className="fs-1r fw-2">Case Studies</p>
-              </div>
+              </Link>
             </div>
           </div>
           
@@ -105,7 +105,7 @@ export default function () {
           </div>
         </div>
         <div className="bc-lc w-100p h-1px"></div>
-        <div className="mxw-1280px w-100p mi-315px mb-34px d-f jc-sb o-80 fw-2">
+        <div className="mxw-1920px w-100p pi-315px mb-34px d-f jc-sb o-80 fw-2">
           <p>© Yoursitename 2024 | All Rights Reserved</p>
           <div className="d-f g-40px">
             <Link href={"#"}>Trams & Condition</Link>
