@@ -4,8 +4,8 @@ import Link from "next/link";
 export default function Page() {
     return (
         <div>
-            <Link href={"/"}>Hello world!</Link>
-            <Hero title="Countries Details"/>
+            <Hero title="Test"/>
+            <div className="h-100px"></div>
         </div>
     );
 }

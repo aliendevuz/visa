@@ -1,4 +1,4 @@
-import Hero from "@/components/Hero";
+import Hero from "@/components/hero/Hero";
 import Link from "next/link";
 
 export default function NotFount() {
@@ -36,7 +36,7 @@ export default function NotFount() {
         </Link>
       </div>
       <div className="h-80px"></div>
-      <img src="Frame.png" alt="Not found" />
+      <img src="404.png" alt="Not found" />
       <div className="h-120px"></div>
     </div>
   );

@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
+import ArrowButton from "./ArrowButton";
 
 export default function Nav() {
     return (
@@ -20,10 +21,7 @@ export default function Nav() {
                     <li className="d-f g-5px ai-c"><div>CONTACT</div><FontAwesomeIcon icon={faAngleDown} className="fs-06r" /></li>
                 </ul>
             </div>
-            <Link href={"#"} className="bc-l b-0 pb-20px pi-30px br-50px fs-09r fw-5 ff-b d-f g-10px ai-c c-w">
-                <p>Get An Appointment</p>
-                <FontAwesomeIcon icon={faArrowRight} size="16px" />
-            </Link>
+            <ArrowButton text="Get An Appointment" url="#" />
         </nav>
     );
 }

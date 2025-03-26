@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    align-items: center;
+    font-style: 1.12rem;
+    gap: 15px;
+}
+
+.icon_size {
+    font-size: 1rem;
+}
