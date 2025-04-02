@@ -1,0 +1,148 @@
+.container {
+  display: flex;
+  width: 100%;
+  margin-block: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.name {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.list {
+  display: flex;
+  gap: 30px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.list li {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.small {
+  font-size: 0.6rem;
+}
+
+.button {
+  background-color: var(--lime);
+  border: 0;
+  padding-block: 20px;
+  padding-inline: 30px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.size {
+  font-size: 16px;
+}
+
+.color_white {
+  color: white;
+}
+
+.color_foreground {
+  color: var(--foreground);
+}
+
+.mobile {
+  display: none;
+}
+
+.drawer {
+    flex-direction: column;
+    gap: 40px;
+}
+
+.x {
+    display: none !important;
+    align-self: flex-end;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    margin-block: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-block: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin-block: 10px;
+  }
+
+  .logo {
+    gap: 5px;
+  }
+
+  .logo img {
+    width: 30px;
+  }
+
+  .logo h2 {
+    font-size: 1.6rem;
+  }
+
+  .list {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .button {
+    display: none;
+    justify-self: end;
+    padding-block: 20px;
+    padding-inline: 30px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    gap: 10px;
+  }
+
+  .drawer {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: #ffffffdd;
+    z-index: 1000;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile {
+    display: flex;
+  }
+
+  .x {
+    display: block !important;
+    padding: 20px;
+    aspect-ratio: 1/1;
+  }
+
+  .small {
+    display: none !important;
+  }
+}

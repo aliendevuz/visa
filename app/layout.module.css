@@ -1,0 +1,41 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+}
+
+.body_background {
+  background-color: var(--background-additional);
+}
+
+.container {
+  max-width: 1920px;
+  width: 100%;
+  padding-inline: 60px;
+}
+
+/* 📱 Tablet (1024px) */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 900px; /* Tablet ekranlar uchun moslashdi */
+    padding-inline: 30px;
+  }
+}
+
+/* 📱 Kichik ekranlar (768px) */
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px; /* Kichik planshetlar uchun */
+    padding-inline: 20px;
+  }
+}
+
+/* 📱 Mobil (480px) */
+@media (max-width: 480px) {
+  .container {
+    max-width: 95%; /* Ekran bo‘ylab cho‘ziladi */
+    padding-inline: 10px;
+  }
+}

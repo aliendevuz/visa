@@ -1,0 +1,23 @@
+
+
+.button {
+    background-color: var(--lime);
+    border: 0;
+    padding-block: 20px;
+    padding-inline: 30px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.color_white {
+    color: white;
+}
+
+.color_foreground {
+    color: var(--foreground);
+}
